@@ -20,7 +20,7 @@ NKRO_ENABLE = yes
 
 AUDIO_ENABLE = no
 
-JOYSTICK_ENABLE = yes
+JOYSTICK_ENABLE = no
 
 # Incompatible with Vial
 PER_KEY_TAPPING_TERM_ENABLE = yes
