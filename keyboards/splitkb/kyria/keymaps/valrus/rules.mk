@@ -1,0 +1,18 @@
+ENCODER_ENABLE = yes
+RGBLIGHT_ENABLE = yes
+OLED_DRIVER_ENABLE = yes
+CONSOLE_ENABLE = no
+RGBLIGHT_ANIMATIONS = no
+COMBO_ENABLE = yes
+NKRO_ENABLE = no
+AUDIO_ENABLE = no
+
+# Space savers
+LTO_ENABLE = yes
+GRAVE_ESC_ENABLE = no
+MAGIC_ENABLE = no
+SPACE_CADET_ENABLE = no
+
+SRC += rgblight.c
+SRC += encoder.c
+SRC += oled.c
